@@ -26,10 +26,10 @@ const DashboardContainer = createAsyncComponent({
       if (isAuth) {
         component = await System.import('./../containers/DashboardContainer');
       } else {
-        component = await System.import('./../containers/ErrorForbiddenComponent');
+        component = await System.import('./../components/ErrorForbiddenComponent');
       }
     } catch (err) {
-      component = await System.import('./../containers/ErrorInternalServerComponent');
+      component = await System.import('./../components/ErrorInternalServerComponent');
     }
 
     return component;
