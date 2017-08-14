@@ -1,0 +1,35 @@
+{
+  "name": "@ozylog/async-component",
+  "version": "0.0.0",
+  "description": "Simple Async Component for React",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prepublish": "boilerplate --build=react",
+    "build": "boilerplate --build=react"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozylog/async-component.git"
+  },
+  "keywords": [
+    "ozylog",
+    "react",
+    "async",
+    "component",
+    "HOC"
+  ],
+  "author": "Cahya Pribadi <cahya@monelog.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ozylog/async-component/issues"
+  },
+  "homepage": "https://github.com/ozylog/async-component#readme",
+  "devDependencies": {
+    "@ozylog/boilerplate": "^0.6.8"
+  },
+  "peerDependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-jss": "^7.0.2"
+  }
+}
