@@ -1,6 +1,6 @@
 {
   "name": "@ozylog/async-component",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple Async Component for React",
   "main": "./dist/index.js",
   "scripts": {
