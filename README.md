@@ -10,8 +10,6 @@ npm install @ozylog/async-component
 
 ## Usage Example
 ```javascript
-'use react';
-
 import createAsyncComponent from '@ozylog/async-component';
 import DashboardLoaderComponent from './DashboardLoaderComponent';
 import {isAuthenticated} from './authApi';
